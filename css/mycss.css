@@ -1,0 +1,156 @@
+.navbar{
+	background: white;
+}
+
+.navbar-brand{
+	font-size: 22px;
+	font-weight: bold;
+}
+
+/*jumbotron*/
+
+.jumbotron{
+	background-image: url('../gambar/profile.png');
+	background-attachment: fixed;
+	overflow: hidden;
+	color: white;
+	height: 460px;
+	margin-top: 59px;
+}
+
+.display-4{
+	margin-top: 50px !important;
+}
+
+/*producs*/
+.bg-producs{
+	background: #b4daff;
+	margin-top: -35px;
+}
+
+footer{
+	background: #000;
+	color: #ffff;
+	padding-top: 15px;
+	padding-bottom: 1px;
+}
+
+footer{
+	text-align: center;
+}
+
+/*halaman pendaftaran*/
+
+.bg-pendaftara{
+	background: #D9F2FD;
+}
+
+.uncheck{
+	background: #fff;
+	border: 1px solid #DC3545;
+	border-radius: 2%;
+}
+
+/*halaman login*/
+
+.login{
+	background-image: url(../gambar/bg-login.png);
+}
+
+.content{
+	position: fixed;
+	background-image: linear-gradient(to top, #4533e652, #eaea);
+	width: 100%;
+	height: 100%;
+}
+
+.box{
+	max-width: 23rem;
+	max-height: 324px;
+}
+
+.card-body-login, .card-body-daftar{
+	background-color: #fff;
+	padding: 1.25em;
+	color: #000;
+}
+
+.pd{
+		padding-top: 35%;
+	}
+
+.none{
+	display: none;
+}
+
+/*Utility*/
+
+.tombol{
+	border-radius: 40px
+}
+
+.text-shadow{
+	text-shadow: 1px 1px 1px #000000b3;
+}
+
+section, .batas{
+	border-bottom: 3px solid #05f6ffcc;
+}
+
+@media (min-width: 992px){
+
+/*Navbar*/
+	.navbar{
+		background: #ffffff00;
+	}
+
+	.bg-navbar{
+		background: #b4daff;
+	}
+
+	.navbar-brand, .nav-link{
+	color: white !important;
+	}
+
+
+	.nav-item{
+		text-transform: uppercase;
+		font-size: 15px;
+		margin-right: 15px;
+	}
+
+	.nav-link:hover{
+		content: '';
+		border-bottom: 3px solid #007bff;
+		margin-top: -3px;
+	}
+
+/*Jumbotron*/
+	.jumbotron{
+		height: 575px;
+		margin-top: -0px;
+	}
+
+	.fix{
+		margin-top: 95px !important;
+		margin-left: 90px;
+	}
+
+/*producs*/
+	.c-producs{
+		margin-top: 48px;
+	}
+
+	.contact{
+		color: #000;
+		background: #fff;
+		min-height: 545px;
+	}
+
+/*halaman login*/
+
+	.pd{
+		padding-top: 10%;
+	}
+
+}
