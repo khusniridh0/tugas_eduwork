@@ -85,10 +85,10 @@
 					$password = $login['password'];
 
 					$query = query("SELECT * FROM angota WHERE email = '$email';");
-
-					if ( isset($query['email']) === $email && isset($query['password']) === $password) {
+					
+					if ( $query['email'] === $email && $query['password'] === $password) {
 						header("location: pendaftaran.php?email=$email");
-						// print_r($email);
+
 					}else{
 						echo "<div class='alert alert-danger position-absolute' role='alert'>Email atau Password yang anda masukan salah! coba lagi</div>";
 					}
